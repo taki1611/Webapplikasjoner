@@ -1,5 +1,5 @@
-//import './styles.css';
-//import { users } from './util';
+import './styles.css';
+import { users } from './util';
 
 // TODO: Hent HTML #id med getElementById
 const searchInput = '';
