@@ -1,5 +1,4 @@
-import './styles.css';
-import { users } from './util';
+const users = require("./util.js");
 
 
 const searchInput = document.getElementById('name');
