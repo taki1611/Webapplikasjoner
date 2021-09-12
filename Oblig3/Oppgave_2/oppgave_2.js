@@ -8,9 +8,9 @@ const userUI = document.getElementById('users');
 
 const createTableUI = (users) => {
   userUI.innerHTML = null;
-  userUI.innerHTML += '<li><span>Id</span><span>Navn</span><span>Alder</span></li>';
+  userUI.innerHTML += `<li><span>Id</span><span>Navn</span><span>Alder</span></li>`;
     for (var i = 0; i < users.length; i++) {
-      userUI.innerHTML += '<li><span>${user.id}</span><span>${user.name}</span><span>${user.age}</span></li>';
+      userUI.innerHTML += `<li><span>${user.id}</span><span>${user.name}</span><span>${user.age}</span></li>`;
     }
 };
 

@@ -5,21 +5,17 @@ const text =
 
 const longestWord = () => {
 
-  var array = text.split(",");  //Bruker text.split
+  var array = text.split(" ");  //Bruker text.split
 
-  for (var i = 0; i < array.length; i++) {    //Velger her å iterere gjennom array som er laget og deretter splitte første ord.
-    var forsteOrd = array[i].split(" ");
-    console.log(forsteOrd[0]);
-  }
+  var longestWord = textAsArray[0];
 
 // TODO: Gå igjennom alle ordene og oppdater hvis nytt ord er lengre
-var longestWord = 0;
-    for(var i = 0; i < array.length; i++) {   //Her prøvde jeg å løse oppgaven ved å lage enda en for loop og en if-statement, men får undefined som output. Selv om jeg prøvde denne metoden får jeg 356 som output.
-      if(array[i].length > longestWord) {
-        longestWord = array[i].length;
-      }
+  textAsArray.forEach((word) => {
+    if (word.length > longestWord.length) {
+      longestWord = word;
     }
-    return longestWord;
-}
+  });
+  return longestWord;
+};
 
 console.log(longestWord());
