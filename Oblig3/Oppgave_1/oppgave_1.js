@@ -5,7 +5,7 @@ const text =
 
 const longestWord = () => {
 
-  var array = text.split(" ");  //Bruker text.split
+  var textAsArray = text.split(" ");  //Bruker text.split
 
   var longestWord = textAsArray[0];
 
