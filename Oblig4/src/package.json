@@ -1,0 +1,14 @@
+{
+  "name": "oblig-4-tarik",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "dependencies": {
+    "expect": "27.1.0",
+    "nodemon": "2.0.12"
+  },
+  "keywords": []
+}
