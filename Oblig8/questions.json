@@ -43,7 +43,7 @@
 },
       {
         "answere": "async og await"
-	       "correct": true
+	      "correct": true
       },
       {
         "answere": "counter og done"
@@ -65,7 +65,7 @@
       },
       {
         "answere": "Når man har en implementasjon man ønsker og kjøre, men man vil sjekke hvordan den blir brukt"
-	       "correct": true
+	      "correct": true
       },
       {
         "answere": "Når man ønsker og kopiere funksjonaliteten til den ekte implementasjonen, men at man endrer implementasjonen til være raskere og kreve mindre oppsett",
