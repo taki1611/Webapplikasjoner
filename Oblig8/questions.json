@@ -1,0 +1,78 @@
+"questions": [
+  {
+    "title": "Hvordan vet man om man har testet godt nok?",
+    "answers": [
+      { "answere": "Dette vet man ikke med mindre program brukes" },
+      {
+        "answere": "Se kjapt gjennom koden og stole på systemet"
+      },
+      {
+        "answere": "Kjøre en funksjon med en if-setning"
+      },
+      {
+        "answere": "Det finnes flere måter å finne ut dette på",
+        "correct": true
+      }
+    ],
+    "helper": {
+      "text": "I noen tilfeller vil det ikke være godt nok og kjøre en if-setning og heller ikke å overdrive med tester og setninger"
+    }
+  {
+    "title": "Hva menes egentlig med en «hook»?",
+    "answers": [
+      { "answere": "Hook er bare en vanlig funksjon, med en spesiell egenskap, som er at den kan "hooke" seg inn i livssyklusen til React",
+	       "correct": true
+ },
+      {
+        "answere": "Hook er en mekanisme for å feste sammen flere funksjoner"
+      },
+      {
+        "answere": "Det er et program som kjøres for å «hooke» if statements sammen"
+      },
+      {
+        "answere": "Det er ingenting av det som er nevnt over",
+      }
+    ],
+    "helper": {
+      "text": "Hook kan brukes i flere sammenhenger, men den skiller seg ut og kan festes i sammenheng med en ny utviklet js"
+    }
+  {
+    "title": "Hvilken to betegnelser kan enklere brukes i sammenheng med promises?",
+    "answers": [
+      { "answere": "sync og wait"
+},
+      {
+        "answere": "async og await"
+	       "correct": true
+      },
+      {
+        "answere": "counter og done"
+      },
+      {
+        "answere": "resolve og hook",
+      }
+    ],
+    "helper": {
+      "text": "Promises kan bli utført på flere måter, men er enklere å bruke med betegnelser hvor man venter og synkroniserer"
+    }
+    {
+      "title": "Når er det best å bruke 'Spies'?",
+    "answers": [
+      { "answere": "Kun om man ikke får brukt mocks eller fakes"
+},
+      {
+        "answere": "I hvilken som helst sammenheng, og spies er den som blir oftest brukt"
+      },
+      {
+        "answere": "Når man har en implementasjon man ønsker og kjøre, men man vil sjekke hvordan den blir brukt"
+	       "correct": true
+      },
+      {
+        "answere": "Når man ønsker og kopiere funksjonaliteten til den ekte implementasjonen, men at man endrer implementasjonen til være raskere og kreve mindre oppsett",
+      }
+    ],
+    "helper": {
+      "text": "Spies logger alle kall til en funksjon og man vil "spionere" på en implementasjon"
+    }
+  }
+]
