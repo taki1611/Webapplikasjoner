@@ -21,7 +21,7 @@
     "title": "Hva menes egentlig med en «hook»?",
     "answers": [
       { "answere": "Hook er bare en vanlig funksjon, med en spesiell egenskap, som er at den kan "hooke" seg inn i livssyklusen til React",
-	       "correct": true
+	      "correct": true
  },
       {
         "answere": "Hook er en mekanisme for å feste sammen flere funksjoner"
